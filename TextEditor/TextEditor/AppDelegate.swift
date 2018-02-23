@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TextEditor
 //
-//  Created by admin on 2/22/18.
+//  Created by admin on 2/23/18.
 //  Copyright © 2018 rstakhiv. All rights reserved.
 //
 
@@ -21,9 +21,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
-    func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
-        return .terminateNow
-    }
 
 }
 
