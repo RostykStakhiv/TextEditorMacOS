@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8481ACA920446D42009A0361 /* TextEditWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACA820446D42009A0361 /* TextEditWC.swift */; };
 		84898C44204075D200EFA21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84898C43204075D200EFA21D /* AppDelegate.swift */; };
 		84898C48204075D200EFA21D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84898C47204075D200EFA21D /* Document.swift */; };
 		84898C4A204075D200EFA21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84898C49204075D200EFA21D /* Assets.xcassets */; };
-		84898C602040762C00EFA21D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84898C562040762C00EFA21D /* Info.plist */; };
 		84898C612040762C00EFA21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84898C592040762C00EFA21D /* Main.storyboard */; };
 		84898C622040762C00EFA21D /* TextEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84898C5B2040762C00EFA21D /* TextEditVC.swift */; };
 		84898C632040762C00EFA21D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84898C5D2040762C00EFA21D /* DataModel.swift */; };
@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8481ACA820446D42009A0361 /* TextEditWC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditWC.swift; sourceTree = "<group>"; };
 		84898C40204075D200EFA21D /* TextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84898C43204075D200EFA21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84898C47204075D200EFA21D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -41,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8481ACA720446D42009A0361 /* WindowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8481ACA820446D42009A0361 /* TextEditWC.swift */,
+			);
+			path = WindowControllers;
+			sourceTree = "<group>";
+		};
 		84898C37204075D200EFA21D = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				84898C592040762C00EFA21D /* Main.storyboard */,
+				8481ACA720446D42009A0361 /* WindowControllers */,
 				84898C5A2040762C00EFA21D /* ViewControllers */,
 			);
 			path = Main;
@@ -173,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84898C612040762C00EFA21D /* Main.storyboard in Resources */,
-				84898C602040762C00EFA21D /* Info.plist in Resources */,
 				84898C4A204075D200EFA21D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +198,7 @@
 				84898C632040762C00EFA21D /* DataModel.swift in Sources */,
 				84898C642040762C00EFA21D /* TextEditor.xcdatamodeld in Sources */,
 				84898C48204075D200EFA21D /* Document.swift in Sources */,
+				8481ACA920446D42009A0361 /* TextEditWC.swift in Sources */,
 				84898C622040762C00EFA21D /* TextEditVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

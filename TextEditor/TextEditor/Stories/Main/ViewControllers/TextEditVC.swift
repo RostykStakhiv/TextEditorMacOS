@@ -9,10 +9,13 @@
 import Cocoa
 
 class TextEditVC: NSViewController {
-
+    
+    @IBOutlet private weak var textView: NSTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        
+        textView.toggleRuler(nil)
     }
     
 }
